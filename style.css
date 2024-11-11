@@ -1,0 +1,77 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+}
+:root{
+   font-size: 16x;
+}
+body{
+   padding: 2vmin;
+   font-size: clamp(.7rem, 2.5vw, 2rem);
+   background-color:#dcdfd6;
+}
+.random-color-generator-container{
+   display: flex;
+  gap: 10px;
+   
+}
+.rgb-color-container, .hex-color-container {
+   min-height: 100vh;
+   flex: 1;
+}
+.rgb-color-container{
+   padding: 3vmin;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 1.5vmin;
+   background-color:#292528;
+   color: #dcdfd6;
+}
+.hex-color-container{
+   background-color:#ffd300;
+   padding: 3vmin;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1vmin;
+
+}
+.hex-color-value{
+   font-size: clamp(1rem, 2.5vw, 3rem);
+   font-weight: bold;
+}
+.hex-color-container button{
+   padding: 12px 20px;
+   cursor: pointer;
+   font-size: clamp(.7rem, 2.5vw, 2rem);
+   background-color: #292528;
+   color: #ffd300 ;
+   border: 1px solid #292528;
+   border-radius: .5vmin;
+   margin-bottom: 2.5vmin;
+}
+.hex-color-container button:hover{
+   background-color: #ffd300;
+   color:#292528 ;
+   border: 1px solid #292528;
+}
+.rgb-color-container button{
+   padding: 12px 20px;
+   cursor: pointer;
+   font-size: clamp(.7rem, 2.5vw, 2rem);
+   background-color: #ffd300;
+   color: #292528 ;
+   border: 1px solid #ffd300;
+   border-radius: .5vmin;
+   margin-bottom: 2.5vmin;
+}
+.rgb-color-container button:hover{
+   background-color: #292528;
+   color:#ffd300 ;
+   border: 1px solid#ffd300 ;
+}
