@@ -12,6 +12,11 @@ body{
    font-size: clamp(.7rem, 2.5vw, 2rem);
    background-color:#dcdfd6;
 }
+h3{
+    text-align: center;
+    width: 70%;
+
+}
 .random-color-generator-container{
    display: flex;
   gap: 10px;
